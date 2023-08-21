@@ -75,6 +75,7 @@ header p {
   -o-object-fit: cover;
      object-fit: cover;
   vertical-align: bottom;
+  max-width: 80%;
 }
 .main .container .images .images-right {
   width: 82%;
@@ -178,9 +179,6 @@ header p {
 .main .container .contents .product-desc .product-attentions .attention-box p {
   font-size: 0.9375rem;
 }
-.main .container .contents .product-desc .check-box {
-  margin-bottom: 10px;
-}
 .main .container .contents .product-desc .re-price {
   display: flex;
   justify-content: space-between;
@@ -197,24 +195,7 @@ header p {
   margin-bottom: 10px;
   display: flex;
   justify-content: flex-end;
-}
-.main .container .contents .product-desc .cart .count {
-  font-size: 1.25rem;
-  padding: 10px 20px;
-  border: 1px solid #69b9bb;
-  border-radius: 1000px;
-  display: flex;
   align-items: center;
-}
-.main .container .contents .product-desc .cart .count span {
-  padding: 1px 6px;
-  font-size: 1.125rem;
-  color: #69b9bb;
-  cursor: pointer;
-}
-.main .container .contents .product-desc .cart .count p {
-  padding: 1px 40px;
-  color: #69b9bb;
 }
 .main .container .contents .product-desc .cart .cart-btn {
   padding: 10px 40px;

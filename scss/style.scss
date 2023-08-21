@@ -82,6 +82,7 @@ header{
 
                         img{
                             @include img;
+                            max-width: 80%;
                         }
                     }
                 }
@@ -209,10 +210,6 @@ header{
                     }
                 }
 
-                .check-box{
-                    margin-bottom: 10px;
-                }
-
                 .re-price{
                     display: flex;
                     justify-content: space-between;
@@ -232,27 +229,28 @@ header{
                     margin-bottom: 10px;
                     display: flex;
                     justify-content: flex-end;
+                    align-items:center;
 
-                    .count{
-                        font-size: 1.25rem;
-                        padding: 10px 20px;
-                        border:1px solid #69b9bb;
-                        border-radius:1000px;
-                        display: flex;
-                        align-items:center;
+                    // .count{
+                    //     font-size: 1.25rem;
+                    //     padding: 10px 20px;
+                    //     border:1px solid #69b9bb;
+                    //     border-radius:1000px;
+                    //     display: flex;
+                    //     align-items:center;
 
-                        span{
-                            padding: 1px 6px;
-                            font-size: 1.125rem;
-                            color: #69b9bb;
-                            cursor:pointer;
-                        }
+                    //     span{
+                    //         padding: 1px 6px;
+                    //         font-size: 1.125rem;
+                    //         color: #69b9bb;
+                    //         cursor:pointer;
+                    //     }
 
-                        p{
-                            padding: 1px 40px;
-                            color: #69b9bb;
-                        }
-                    }
+                    //     p{
+                    //         padding: 1px 40px;
+                    //         color: #69b9bb;
+                    //     }
+                    // }
 
                     .cart-btn{
                         padding: 10px 40px;
