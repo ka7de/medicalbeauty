@@ -75,7 +75,7 @@ header p {
   -o-object-fit: cover;
      object-fit: cover;
   vertical-align: bottom;
-  max-width: 80%;
+  max-width: 75%;
 }
 .main .container .images .images-right {
   width: 82%;
