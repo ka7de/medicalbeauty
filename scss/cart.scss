@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html{
+    font-size:100%;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family:'YuGothic';
+    color: #222;
+}
+
+a{
+    text-decoration:none;
+}
+
+li{
+    list-style:none;
+}
+
+.wrapper{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 16px;
+    box-sizing:border-box;
+}
+
+@mixin img{
+    max-width: 100%;
+    object-fit:cover;
+    vertical-align:bottom;
+}
+
+// header
+header{
+    background: #dd7774;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0;                     
+
+    p{
+        color: #fff;
+        text-align:center;
+        padding: 3px 20px;
+        letter-spacing:0.1em;
+        font-weight: 500;
+    }
+}
